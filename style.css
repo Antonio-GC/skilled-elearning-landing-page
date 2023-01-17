@@ -37,3 +37,7 @@ a {
 body {
    
 }
+
+.container{
+    padding: 1rem 4rem;
+}
