@@ -20,6 +20,10 @@
  --font-size: 62.5%;
  --padding-container-mobile: 0 1.6rem;
  --box-shadow: 0px 5px 15px -5px var(--very-dark-blue-alpha);
+ /* Font family */
+
+
+ --font-family-jack: font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 html {
@@ -39,5 +43,29 @@ body {
 }
 
 .container{
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    width: 10rem;
+    height: 2.5rem;
+}
+
+.btn--black {
+    background-color: var(--purpure-dark);
+    color: var(--white);
+    border-radius: 2rem;
+    padding: 1rem 1.7rem 1rem 1.7rem;
+}
+
+.hero__title {
+color: var(--purpure-dark);
+font-size: 3rem;
+font-weight:bold;
 }
