@@ -23,7 +23,6 @@
  /* Font family */
 
 
- --font-family-jack: font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 html {
@@ -40,11 +39,15 @@ a {
 
 body {
    
+    font-family:'Headland One', serif, 'Plus Jakarta Sans', sans-serif;
+
 }
 
 .container{
     padding: 1rem 2rem;
 }
+
+/* nav */
 
 .header__nav {
     display: flex;
@@ -57,6 +60,24 @@ body {
     height: 2.5rem;
 }
 
+.hero__title {
+color: var(--purpure-dark);
+font-size: 3rem;
+font-weight:bold;
+font-family: 'Plus Jakarta Sans', sans-serif;
+margin-bottom: 1.5rem;
+}
+
+.hero__text {
+color: var(--gray);
+font-weight:lighter;
+font-family:'Headland One', serif ;
+margin-bottom: 1.5rem;
+}
+
+
+/* button */
+
 .btn--black {
     background-color: var(--purpure-dark);
     color: var(--white);
@@ -64,8 +85,11 @@ body {
     padding: 1rem 1.7rem 1rem 1.7rem;
 }
 
-.hero__title {
-color: var(--purpure-dark);
-font-size: 3rem;
-font-weight:bold;
+
+.btn--gardian-orange {
+    color: var(--white);
+    background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+    border-radius: 2rem;
+    padding: 1rem 1.7rem 1rem 1.7rem;
 }
+
