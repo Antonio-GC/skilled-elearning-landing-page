@@ -43,8 +43,13 @@ body {
 
 }
 
+main {
+   
+}
+
 .container{
     padding: 1rem 2rem;
+    
 }
 
 /* nav */
@@ -93,3 +98,14 @@ margin-bottom: 1.5rem;
     padding: 1rem 1.7rem 1rem 1.7rem;
 }
 
+
+.picture__image {
+    max-width: 100%;
+}
+
+.box__gardian {
+    background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+color: var(--white);
+border-radius: .5rem;
+padding: 3rem 1rem 3rem 1rem;
+}
