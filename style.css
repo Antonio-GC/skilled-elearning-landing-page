@@ -9,6 +9,7 @@
 --purpure-light: #666CA3;
 --purpure-dark: #13183F;
 --gray: #83869A;
+--gray-light: #83869a13;
 --pink-dark: #F74780;
 --pink-light: #FFA7C3;
 --white: #FFFFFF;
@@ -44,7 +45,7 @@ body {
 }
 
 main {
-   
+
 }
 
 .container{
@@ -101,11 +102,111 @@ margin-bottom: 1.5rem;
 
 .picture__image {
     max-width: 100%;
+    
+}
+
+.imagen {
+    
+    min-height: 35rem;
+   background-image: url(/assets/image-hero-mobile.png); 
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   
 }
 
 .box__gardian {
     background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
 color: var(--white);
-border-radius: .5rem;
+border-radius: 1rem;
 padding: 3rem 1rem 3rem 1rem;
+}
+
+.gardian__text {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.section__info {
+   
+    background-color: var(--gray-light);
+}
+
+.container--grid {
+    display: grid;
+    row-gap: 4rem;
+}
+
+.card__info {
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: 4rem 1rem;
+    position: relative;
+    
+}
+
+.image__info {
+    position: absolute;
+    top: -3rem;
+}
+
+.info__title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.info__text {
+    color: var(--gray);
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.info__link {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--pink-dark);
+    font-size: 1.4rem;
+}
+
+.footer__nav {
+background-color: var(--purpure-dark);
+}
+
+.nav__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gardian {
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+}
+
+@media (min-width:600px) {
+    .hero--grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10rem;
+        align-items: center;
+    }
+
+    .imagen {
+      
+background-image: url(/assets/image-hero-desktop.png);
+background-size: cover;
+background-repeat: no-repeat;    
+background-position:left;
+}
+
+.container--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 35rem);
+    column-gap: 2rem;
+}
+
+
+
 }

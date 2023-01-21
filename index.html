@@ -1,99 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Headland+One&family=Plus+Jakarta+Sans:wght@800&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Skilled e-learning landing page</title>
-</head>
-<body>
-  <main>
-    <header class="container">
-          <nav class="header__nav">
-<img src="/assets/logo-dark.svg" alt="" class="nav__logo">
-<button class="btn--black">Get Started</button>
-</nav>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Headland+One&family=Plus+Jakarta+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+  </head>
+  <body>
+    <main>
+      <header class="container">
+        <nav class="header__nav">
+          <img src="/assets/logo-dark.svg" alt="" class="nav__logo" />
+          <button class="btn--black">Get Started</button>
+        </nav>
+      </header>
 
-<article>
-  <div class="container">
-  <div class="hero">
-     <h1 class="hero__title">
-    Maximize skill, minimize budget
-  </h1>
-  <p class="hero__text"> Our modern courses across a range of in-demand skills will give you the 
-    knowledge you need to live the life you want.</p>
-    <button class="btn--gardian-orange">Get Started</button>
-  </div>
-  <picture>
-    <source srcset="/assets/image-hero-desktop.png" media="(min-width: 1000px)" >
-    <source srcset="/assets/image-hero-tablet.png" media="(min-width: 650px)">
-    <source srcset="/assets/image-hero-mobile.png" media="(min-width: 450px)" class="picture__mobile"  >
-    <img src="/assets/image-hero-mobile.png" alt="chica tomando cafe" class="picture__image">
-  </picture>
- <div class="box__gardian">
-  <p class="">Check out our most popular courses!</p>
- </div>
- 
-  </div>
-<div class="container">
-  <div>
-    <img src="/assets/icon-animation.svg" alt="animation" >
-    <h3>Animation</h3>
-    <p>Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
-    <a href="">Get Started</a>
-     </div>
-  <div>
-  <img src="/assets/icon-design.svg" alt="design">
-  <h3>Design</h3>
-  <p>Create beautiful, usable interfaces to help shape the future of how the web looks.</p>
-  <a href="">Get Started</a>
- </div>
- <div>
-  <img src="/assets/icon-photography.svg" alt="Photography">
-  <h3>Photography</h3>
-  <p> Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.</p>
-  <a href="">Get Started</a>
- </div>
- <div>
-<img src="/assets/icon-crypto.svg" alt="crypto">
-<h3>Crypto</h3>
-<p>All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.</p>
-<a href="">Get Started</a>
- </div>
- <div>
-  <img src="/assets/icon-business.svg" alt="Business">
-  <h3>Business</h3>
-  <p> A step-by-step playbook to help you start, scale, and sustain your business without outside investment.</p>
- <a href="">Get Started</a>
- </div>
-</div>
- 
-</article>
-<footer>
-  <div class="container">
-    <div class="footer__">
+      <article>
+        <div class="container">
+          <div class="hero--grid">
+            <div class="hero">
+            <h1 class="hero__title">Maximize skill, minimize budget</h1>
+            <p class="hero__text">
+              Our modern courses across a range of in-demand skills will give
+              you the knowledge you need to live the life you want.
+            </p>
+            <button class="btn--gardian-orange">Get Started</button>
+          </div>
+          <div class="imagen">
 
-    </div>
-  </div>
-</footer>
-  </main>
-
-  
-
-  
-
-
-
-  
- 
-
-
-</body>
+          </div>
+         
+          </div>
+          
+        </div>
+        <div class="section__info">
+          <div class="container">
+            <div class="container--grid">
+              <div class="box__gardian">
+                <p class="gardian__text">Check out our most popular courses!</p>
+              </div>
+              <div class="card__info">
+                <img
+                  src="/assets/icon-animation.svg"
+                  alt="animation"
+                  class="image__info"
+                />
+                <h3 class="info__title">Animation</h3>
+                <p class="info__text">
+                  Learn the latest animation techniques to create stunning
+                  motion design and captivate your audience.
+                </p>
+                <a href="" class="info__link">Get Started</a>
+              </div>
+              <div class="card__info">
+                <img
+                  src="/assets/icon-design.svg"
+                  alt="design"
+                  class="image__info"
+                />
+                <h3 class="info__title">Design</h3>
+                <p class="info__text">
+                  Create beautiful, usable interfaces to help shape the future
+                  of how the web looks.
+                </p>
+                <a href="" class="info__link">Get Started</a>
+              </div>
+              <div class="card__info">
+                <img
+                  src="/assets/icon-photography.svg"
+                  alt="Photography"
+                  class="image__info"
+                />
+                <h3 class="info__title">Photography</h3>
+                <p class="info__text">
+                  Explore critical fundamentals like lighting, composition, and
+                  focus to capture exceptional photos.
+                </p>
+                <a href="" class="info__link">Get Started</a>
+              </div>
+              <div class="card__info">
+                <img
+                  src="/assets/icon-crypto.svg"
+                  alt="crypto"
+                  class="image__info"
+                />
+                <h3 class="info__title">Crypto</h3>
+                <p class="info__text">
+                  All you need to know to get started investing in crypto. Go
+                  from beginner to advanced with this 54 hour course.
+                </p>
+                <a href="" class="info__link">Get Started</a>
+              </div>
+              <div class="card__info">
+                <img
+                  src="/assets/icon-business.svg"
+                  alt="Business"
+                  class="image__info"
+                />
+                <h3 class="info__title">Business</h3>
+                <p class="info__text">
+                  A step-by-step playbook to help you start, scale, and sustain
+                  your business without outside investment.
+                </p>
+                <a href="" class="info__link">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <footer class="footer__nav">
+        <div class="container">
+          <nav class="nav__footer">
+            <img src="/assets/logo-light.svg" alt="" class="nav__logo" />
+            <button class="btn--black gardian">Get Started</button>
+          </nav>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
