@@ -237,4 +237,11 @@ background-position:left;
         grid-template-columns: repeat(2, 40rem);
         place-content: center;
     }
+
+    .container--grid {
+        display: grid;
+    grid-template-columns: repeat(3, 30rem);
+   row-gap: 8rem;
+    place-content: center;
+    }
 }
